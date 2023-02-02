@@ -151,6 +151,11 @@ ul {
     background-color: var(--bac-secondary-color);
     padding-top: 120px;
 }
+
+.our-team .item {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 .section-title {
     color: var(--title-color);
     font-weight: 700;
@@ -179,10 +184,12 @@ ul {
     width: 264px;
     letter-spacing: 0.02em;
     line-height: 24px;
+    margin-bottom: 8px;
 }
 .our-team-text {
 padding-top: 32px;
 padding-bottom: 32px;
+
 }
 .portfolio-text {
     padding-top: 32px;
@@ -215,6 +222,11 @@ padding-bottom: 32px;
     color: #ffffff;
     padding: 100px 0;
 }
+
+.footer .container {
+display: flex;
+gap: 120px;
+}
 .footer .logo {
     color: #ffffff;
 }
@@ -222,6 +234,14 @@ padding-bottom: 32px;
     color: var(--btn-color);
     margin-top: 16px;
 }
+
+.logo-footer {
+    
+}
+.social-footer p {
+  margin-top: 0;
+}
+
 /* blok */
 .container {
     width: 1158px;
@@ -290,6 +310,9 @@ margin-right: 40px;
     }
 
 .our-team .item {
+    width: 264px;
+    height: 428px;
+    background-color: #ffffff;
    text-align: center; 
 
 }
@@ -326,58 +349,81 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 
 /* псевдоелементи */
-.strategy::before {
-    display: block;
+
+.specifics-list .item::before {
+display: block;
     content: '';
     width: 264px;
     height: 112px;
     border-radius: 4px;
     background-color: #F4F4FD;
     background-size: contain;
-    background-image: url(../images/antenna1.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 64px;
+}
+
+.strategy::before {
+   background-image: url(../images/antenna1.svg);
 }
 
 .punctuality::before {
-    display: block;
-    content: '';
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    background-color: #F4F4FD;
-    background-size: contain;
-    background-image: url(../images/clock.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 64px;
+    background-image: url(../images/clock.svg);   
 }
 
 .diligence::before {
-    display: block;
-        content: '';
-        width: 264px;
-        height: 112px;
-        border-radius: 4px;
-        background-color: #F4F4FD;
-        background-size: contain;
         background-image: url(../images/diagram.svg);
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: 64px;
 }
 
 .technologies::before {
-    display: block;
-        content: '';
-        width: 264px;
-        height: 112px;
-        border-radius: 4px;
-        background-color: #F4F4FD;
-        background-size: contain;
         background-image: url(../images/astronaut.svg);
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: 64px;
+        
+}
+/* social-link */
+.soc-net {
+    display: flex; 
+        content: '';
+        gap: 24px;
+        margin: 0 auto;
+        width: 232px;
+}
+.social-link {
+    display: block;
+    width: 40px;
+        height: 40px;
+        background-color: #4D5AE5;
+        border-radius: 50%;
+        
+}
+.ft {
+    background-color: #434455;
+
+}
+
+.social {
+    display: flex;
+        content: '';
+        width: 100%;
+        height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    display: block;
+            width: 16px;
+            height: 16px;
+            stroke-width: 1px;
+            stroke: #4D5AE5;
+            fill: white;
+
+}
+
+.icon-ft {
+    width: 24px;
+        height: 24px;
+        stroke-width: 1px;
+        stroke: white;
+        fill: white;
 }
