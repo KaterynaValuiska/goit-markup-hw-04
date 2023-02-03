@@ -466,3 +466,7 @@ display: block;
         height: 56px;
         fill: #8E8F99;
 }
+
+.icon-company:hover {
+    fill: var(--accent-color);
+}
