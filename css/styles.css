@@ -30,6 +30,8 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo:hover {
@@ -164,9 +166,14 @@ ul {
     text-align: center;
     margin-top: 0;
     margin-bottom: 72px;
-    
-    
+       
 }
+
+.section-customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
 
 .title-small {
     font-weight: 500;
@@ -379,7 +386,7 @@ display: block;
         background-image: url(../images/astronaut.svg);
         
 }
-/* social-link */
+/* sprite svg */
 .soc-net {
     display: flex; 
         content: '';
@@ -426,4 +433,36 @@ display: block;
         stroke-width: 1px;
         stroke: white;
         fill: white;
+}
+
+.customers {
+    display: flex;
+        content: '';
+        gap: 24px;
+        margin: 0 auto;
+        width: 1128px;
+}
+
+.customers-link {
+    display: block;
+        width: 168px;
+        height: 88px;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+}
+
+.company {
+    display: flex;
+        content: '';
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+.icon-company {
+    display: block;
+        width: 104px;
+        height: 56px;
+        fill: #8E8F99;
 }
