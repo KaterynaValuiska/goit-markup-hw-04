@@ -335,7 +335,7 @@ margin-right: 40px;
 }
 
 .portfolio .item {
-    width: 360px;
+    width: 362px;
     margin-right: 24px;
     margin-bottom: 48px;
     border: 1px solid #E7E9FC;
@@ -348,12 +348,14 @@ margin-right: 40px;
     margin-bottom: 0;
 }
 
-.item.flex {
-   border: 1px solid #E7E9FC;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 
+.item.flex:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    cursor: pointer;
 }
 
-
+.item.flex:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 /* псевдоелементи */
 
