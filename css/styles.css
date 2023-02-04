@@ -188,10 +188,9 @@ ul {
 }
 .text {
     margin: 0;
-    width: 264px;
     letter-spacing: 0.02em;
     line-height: 24px;
-    margin-bottom: 16px;
+    
 }
 .our-team-text {
 padding-top: 32px;
@@ -201,14 +200,13 @@ padding-bottom: 32px;
 .portfolio-text {
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .portfolio .title-small {
-    padding-left: 16px;
+    padding-left:
 }
-.portfolio .text {
-    padding-left: 16px;
-}
+
 /* title invisible */
 .visually-hidden {
     position: absolute;
@@ -243,6 +241,7 @@ gap: 120px;
 }
 
 .logo-footer {
+    width: 264px;
     
 }
 .social-footer p {
@@ -393,7 +392,7 @@ display: block;
     display: flex; 
         content: '';
         gap: 24px;
-        margin: 0 auto;
+        margin: 8px auto 0 auto;
         width: 232px;
 }
 .social-link {
@@ -402,10 +401,15 @@ display: block;
         height: 40px;
         background-color: #4D5AE5;
         border-radius: 50%;
-        
 }
+
+.social-link:hover {
+    background-color: #404BBF;
+}
+
 .ft {
     background-color: #434455;
+    gap: 24px;
 
 }
 
@@ -428,6 +432,7 @@ display: block;
             fill: white;
 
 }
+
 
 .icon-ft {
     width: 24px;
