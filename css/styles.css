@@ -6,6 +6,10 @@
     --bac-secondary-color: #F4F4FD;
 }
 
+a {font-style: normal;
+    text-decoration: none;
+    color: currentColor;
+}
 
 body {
     background-color: #ffffff;
@@ -144,6 +148,12 @@ ul {
 }
 
 /* section */
+
+.portfolio-link {
+    font-style: normal;
+    text-decoration: none;
+}
+
 .section {
     color: var(--text-color);
     padding-bottom: 120px;
