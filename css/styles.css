@@ -416,9 +416,7 @@ display: block;
     gap: 16px;
 }
 
-.ft:focus {
-    background-color: #404BBF;
-}
+
 .ft {
     background-color: #434455;
 
@@ -435,6 +433,9 @@ display: block;
 
 }
 
+.social:focus {
+    background-color: #404BBF;
+}
 .icon {
     display: block;
             width: 16px;
@@ -469,9 +470,8 @@ display: block;
         border: 1px solid #8E8F99;
         border-radius: 4px;
 }
-
-.customers-link:hover,
-.customers-link:focus
+ 
+.customers-link:hover
  {
     border: 1px solid var(--accent-color);
 }
@@ -485,6 +485,7 @@ display: block;
         align-items: center;
 }
 
+
 .icon-company {
     display: block;
         width: 104px;
@@ -493,7 +494,9 @@ display: block;
     
 }
 
-.icon-company:hover, 
-.icon-company:focus {
+
+.company:focus .icon-company,
+.company:hover .icon-company {
     fill: var(--accent-color);
+    
 }
